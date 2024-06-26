@@ -1,0 +1,15 @@
+.hero-box{
+    /* background-color: gray; */
+    background-image: url(./binarylogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+    /* z-index: -10; */
+    /* padding: 300px; */
+}
+.hero-inside {
+    background: rgba(31, 31, 31, 0.13);
+    backdrop-filter: blur(15px);
+}

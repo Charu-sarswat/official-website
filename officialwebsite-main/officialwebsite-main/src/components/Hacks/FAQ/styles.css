@@ -1,0 +1,28 @@
+.accord-item{
+    margin: 10px;
+    /* background-color: rgb(0, 72, 134); */
+    border: 1px solid rgb(0, 72, 134);
+    /* background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%); */
+    background: rgba(59, 57, 57, 0.514);
+    border-radius: 16px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.accord-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.faq {
+    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+}
+
+.accord-faq{
+    font-size:18px;
+    font-weight: bold;
+}

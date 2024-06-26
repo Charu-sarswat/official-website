@@ -1,0 +1,64 @@
+.domain-box{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 12px;
+    /* border: 1px solid rgba(255, 255, 255, 0.178); */
+    line-height: 1.5em;
+    font-weight: 550;
+}
+
+
+.dom-container{
+    /* background: black; */
+    /* background-image: url('../assets/sample.svg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.dom-items{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.domains-item{
+    /* width: 50%;
+    height: 50%; */
+    display: inline-block;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+div >.domains-item:first-child{
+    background-color: aqua;
+    position: absolute; 
+    left: 180px;
+    top: 0px;
+}
+div >.domains-item:nth-child(2){
+    background-color: rgb(250, 0, 208);
+    position: absolute; 
+    left: 0;
+    top: 220px;
+    color: black;
+}
+div >.domains-item:nth-child(3){
+    background-color: rgb(240, 228, 238);
+    position: absolute; 
+    right: 0;
+    top: 220px;
+    color: black;
+}
+div >.domains-item:nth-child(4){
+    background-color: rgb(240, 228, 238);
+    position: absolute; 
+    left: 180px;
+    /* top: 150px; */
+    bottom: 0px;
+    color: black;
+}
